@@ -45,7 +45,6 @@ An end-to-end **ETL & Data Warehousing pipeline** built in a Databricks notebook
 3. Before the Oracle export cell, run `%pip install sqlalchemy oracledb` (the install cell is included in the notebook).
 4. The Oracle connection block uses **placeholder credentials** (`your_oracle_username` / `your_oracle_password` / `Hostname`). Replace them with your own values — or better, load them from [Databricks secrets](https://docs.databricks.com/en/security/secrets/index.html) — before running.
 
-> ⚠️ Credentials are intentionally masked in this repository. Do not commit real database credentials.
 
 ## Repository Structure
 
